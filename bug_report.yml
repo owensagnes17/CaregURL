@@ -4,14 +4,12 @@ labels:
 - Issue-Bug
 - Needs-Triage
 body:
-- type: markdown
   attributes:
     value: |
       Please make sure to [search for existing issues](https://github.com/microsoft/PowerToys/issues) before filing a new one!
 - type: input
   attributes:
     label: Microsoft PowerToys version
-    placeholder: |
       "0.53.0"
     description: |
       Hover over system tray icon or look at Settings
@@ -35,7 +33,6 @@ body:
       - Always on Top
       - Awake
       - ColorPicker
-      - Developer file preview
       - FancyZones
       - FancyZones Editor 
       - Image Resizer
@@ -73,8 +70,6 @@ body:
     label: ✔️ Expected Behavior
     placeholder: What were you expecting?
   validations:
-    required: false
-
 - type: textarea
   attributes:
     label: ❌ Actual Behavior
